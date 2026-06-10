@@ -1,0 +1,131 @@
+{
+  "totalBudget": 600,
+  "checkIntervalSec": 5,
+  "pairs": [
+    {
+      "symbol": "CFG/USDT",
+      "budget": 24,
+      "gridLines": 6,
+      "stepPercent": 1.5,
+      "dynamicStep": {
+        "minStep": 1.2,
+        "maxStep": 1.8
+      },
+      "ladder": {
+        "activeBuys": 3,
+        "activeSells": 2
+      }
+    },
+    {
+      "symbol": "M/USDT",
+      "budget": 150,
+      "gridLines": 10,
+      "stepPercent": 1.5,
+      "dynamicStep": {
+        "minStep": 1.2,
+        "maxStep": 2
+      }
+    },
+    {
+      "symbol": "ZEC/USDT",
+      "budget": 67.5,
+      "gridLines": 6,
+      "stepPercent": 1.5
+    },
+    {
+      "symbol": "CHZ/USDT",
+      "budget": 67.5,
+      "gridLines": 10,
+      "stepPercent": 1.5
+    },
+    {
+      "symbol": "PENGU/USDT",
+      "budget": 43,
+      "gridLines": 6,
+      "stepPercent": 2,
+      "dynamicStep": {
+        "minStep": 1.5,
+        "maxStep": 2.5
+      },
+      "ladder": {
+        "activeBuys": 3,
+        "activeSells": 2
+      }
+    },
+    {
+      "symbol": "ROBO/USDT",
+      "budget": 60,
+      "gridLines": 10,
+      "stepPercent": 1.5
+    },
+    {
+      "symbol": "SENT/USDT",
+      "budget": 27.89,
+      "gridLines": 10,
+      "stepPercent": 1.5
+    },
+    {
+      "symbol": "KITE/USDT",
+      "budget": 59.61,
+      "gridLines": 10,
+      "stepPercent": 1.5
+    }
+  ],
+  "compound": {
+    "enabled": false
+  },
+  "dynamicStep": {
+    "enabled": true,
+    "minStep": 0.8,
+    "maxStep": 3.5
+  },
+  "trailing": {
+    "enabled": false,
+    "activatePercent": 0.8,
+    "pullbackPercent": 0.1
+  },
+  "rebalance": {
+    "enabled": false,
+    "checkIntervalMin": 60,
+    "thresholdPercent": 60
+  },
+  "news": {
+    "enabled": true,
+    "pauseOnNegative": true,
+    "checkIntervalMin": 5
+  },
+  "scanner": {
+    "enabled": true,
+    "autoSwitch": false,
+    "scanIntervalMin": 30,
+    "minGridScore": 65,
+    "dropScore": 62,
+    "maxPairs": 10,
+    "minHoursBeforeRemove": 3,
+    "minBudgetPerPair": 8,
+    "minVolume24h": 200000,
+    "minDailyRange": 3,
+    "reservePercent": 2
+  },
+  "ladder": {
+    "enabled": true,
+    "activeBuys": 1,
+    "activeSells": 2,
+    "safetyOrder": {
+      "enabled": true,
+      "buyDistancePercent": 5
+    }
+  },
+  "telegram": {
+    "note": "Добавь TG_BOT_TOKEN и TG_CHAT_ID в .env"
+  },
+  "safety": {
+    "enabled": true,
+    "stopLossPercent": -15,
+    "trendGate": {
+      "enabled": true,
+      "pct24hThreshold": -5,
+      "trendDomThreshold": 0.5
+    }
+  }
+}

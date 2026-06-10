@@ -1,0 +1,8 @@
+node_modules/
+.env
+*.log
+grid-state.json
+grid-config.json
+*.bak-*
+scanner-result.json
+last-scanner-notify.json

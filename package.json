@@ -1,0 +1,14 @@
+{
+  "name": "htx-grid-bot",
+  "version": "1.0.0",
+  "description": "Spot Grid Trading Bot for HTX",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "dependencies": {
+    "ccxt": "^4.3.0",
+    "dotenv": "^16.4.0"
+  }
+}
