@@ -68,4 +68,8 @@ npm start                                  # node src/index.js (сам форк�
 <img width="513" height="1239" alt="image" src="https://github.com/user-attachments/assets/21157b57-e3bd-4012-8793-69c0d3141502" />
 <img width="420" height="958" alt="image" src="https://github.com/user-attachments/assets/5936cccf-7a2b-46aa-9ff3-b289e6d9a008" />
 <img width="398" height="473" alt="image" src="https://github.com/user-attachments/assets/b8b0f6c3-7275-4a19-b58a-f1401b32d8a0" />
+<img width="1193" height="459" alt="image" src="https://github.com/user-attachments/assets/2ac395f3-abfc-412b-a3bc-97fceb7b8399" />
+<img width="1199" height="528" alt="image" src="https://github.com/user-attachments/assets/d1aa2d93-324e-4c59-8c3d-b18cd44d49e3" />
+<img width="1207" height="524" alt="image" src="https://github.com/user-attachments/assets/725d0767-df7c-4f26-9552-88bcde35e8f4" />
+<img width="1204" height="535" alt="image" src="https://github.com/user-attachments/assets/67d21c88-2078-4c18-9378-4cc6de68b244" />
 
